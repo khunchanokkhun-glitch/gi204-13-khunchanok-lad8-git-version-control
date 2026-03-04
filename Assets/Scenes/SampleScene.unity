@@ -318,6 +318,25 @@ Skybox:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 490ac0537fc4335408187caac79ef428, type: 2}
+--- !u!1 &1865760459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 53c512307c9be624da3a541b17ebaac6, type: 3}
+  m_PrefabInstance: {fileID: 2063041429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1865760463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865760459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3fd2f25936573d46a513afc505105c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  moveSpeed: 5
+  rotateSpeed: 700
 --- !u!1 &1959690226
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +606,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 53c512307c9be624da3a541b17ebaac6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1865760463}
   m_SourcePrefab: {fileID: 100100000, guid: 53c512307c9be624da3a541b17ebaac6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
